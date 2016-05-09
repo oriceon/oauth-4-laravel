@@ -131,7 +131,7 @@ return [
 	/**
 	 * Storage
 	 */
-	'storage' => 'Session', 
+	'storage' => '\\OAuth\\Common\\Storage\\Session',
 
 	/**
 	 * Consumers
@@ -157,8 +157,8 @@ return [
 Add your credentials to ``config/oauth-5-laravel.php`` (depending on which option of configuration you choose)
 
 
-The `Storage` attribute is optional and defaults to `Session`. 
-Other [options](https://github.com/Lusitanian/PHPoAuthLib/tree/master/src/OAuth/Common/Storage).
+The `Storage` attribute is optional and defaults to `OAuth\Common\Storage\Session`. 
+[Details](https://github.com/Lusitanian/PHPoAuthLib/blob/master/src/OAuth/Common/Storage/Session.php).
 
 ## Usage
 
