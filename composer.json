@@ -18,11 +18,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.2",
         "carlos-mg89/oauth": "^0.8"
     },
     "require-dev": {
-        "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0"
     },    
     "require-all": true,
     "extra": {
