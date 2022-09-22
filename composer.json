@@ -2,7 +2,7 @@
     "name": "oriceon/oauth-5-laravel",
     "type": "library",
     "description": "OAuth Service Provider for Laravel 5",
-    "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
+    "keywords": ["OAuth", "carlos-mg89", "laravel", "php"],
     "homepage": "https://github.com/oriceon/oauth-5-laravel",
     "license": "MIT",
     "authors": [
@@ -19,10 +19,10 @@
     ],
     "require": {
         "php": ">=5.4",
-        "lusitanian/oauth": "*"
+        "carlos-mg89/oauth": "^0.8"
     },
     "require-dev": {
-        "illuminate/support": "~5"
+        "illuminate/support": "^5.1|^6.0|^7.0|^8.0|^9.0",
     },    
     "require-all": true,
     "extra": {
