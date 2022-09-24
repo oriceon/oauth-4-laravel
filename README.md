@@ -1,7 +1,7 @@
 # OAuth wrapper for Laravel 5
 
-oauth-5-laravel is a simple laravel 5 service provider (wrapper) for [Lusitanian/PHPoAuthLib](https://github.com/Lusitanian/PHPoAuthLib) 
-which provides oAuth support in PHP 5.4+ and is very easy to integrate with any project which requires an oAuth client.
+oauth-5-laravel is a simple laravel 5 service provider (wrapper) for [carlos-mg89/PHPoAuthLib](https://github.com/carlos-mg89/PHPoAuthLib) 
+which provides oAuth support in PHP 5.4+ also 8.1 and is very easy to integrate with any project which requires an oAuth client.
 
 Was first developed by [Artdarek](https://github.com/artdarek/oauth-4-laravel) for Laravel 4 and I ported it to Laravel 5.
 
@@ -56,16 +56,25 @@ Included service implementations:
     - Yammer
 - more to come!
 
-To learn more about Lusitanian/PHPoAuthLib go [here](https://github.com/Lusitanian/PHPoAuthLib) 
+To learn more about Lusitanian/PHPoAuthLib go [here](https://github.com/Lusitanian/PHPoAuthLib), forked repo (https://github.com/carlos-mg89/PHPoAuthLib)  contains php 8.1 support
 
 ## Installation
 
 Add oauth-5-laravel to your composer.json file:
 
 ```
+In require
 "require": {
-  "oriceon/oauth-5-laravel": "dev-master"
+  "ani37/oauth-5-laravel": "2.0"
 }
+
+In repositories,
+"repositories": [
+{
+      "type": "vcs",
+      "no-api": true,
+      "url": "git@github.com:ani37/oauth-5-laravel.git"
+}]
 ```
 
 Use composer to install this package.
